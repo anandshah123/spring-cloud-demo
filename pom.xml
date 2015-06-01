@@ -10,6 +10,7 @@
 		<module>shopping-cart-edge</module>
 		<module>shopping-cart-store</module>
 		<module>shopping-cart-eureka-server</module>
+		<module>shopping-cart-promo</module>
 	</modules>
 	<packaging>pom</packaging>
 
