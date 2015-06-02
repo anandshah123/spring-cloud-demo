@@ -13,6 +13,7 @@
         <module>shopping-cart-histrix-dashboard</module>
         <module>shopping-cart-customer-edge</module>
         <module>shopping-cart-commons</module>
+        <module>shopping-cart-turbine</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -48,6 +49,16 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-turbine</artifactId>
         </dependency>
     </dependencies>
 
