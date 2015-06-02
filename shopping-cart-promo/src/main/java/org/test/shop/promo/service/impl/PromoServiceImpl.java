@@ -13,7 +13,7 @@ import java.util.*;
 @Service
 public class PromoServiceImpl implements PromoService {
 
-    @HystrixCommand(fallbackMethod = "defaultPromos")
+
     @Override
     public Collection<Promo> fetchPromos(Date forDate) {
         System.out.println("Promo service called for - "+forDate);
@@ -21,13 +21,6 @@ public class PromoServiceImpl implements PromoService {
         for (int i = 1; i < new Random().nextInt(20); i++) {
             promos.add(new Promo(UUID.randomUUID().toString(),"Content for "+i,new Random().nextInt(5),new Random().nextInt(50000)));
         }
-        return promos;
-    }
-
-    public Collection<Promo> defaultPromos(Date date){
-        System.out.println("Default Promo called at - "+date);
-        List<Promo> promos = new ArrayList<>();
-        promos.add(new Promo("1","The Default Promo",5,50000));
         return promos;
     }
 }
