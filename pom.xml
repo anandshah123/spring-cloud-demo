@@ -11,6 +11,7 @@
 		<module>shopping-cart-store</module>
 		<module>shopping-cart-eureka-server</module>
 		<module>shopping-cart-promo</module>
+		<module>shopping-cart-histrix-dashboard</module>
 	</modules>
 	<packaging>pom</packaging>
 
