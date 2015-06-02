@@ -1,8 +1,7 @@
 package org.test.shop.promo.service.impl;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.stereotype.Service;
-import org.test.shop.promo.dto.Promo;
+import org.test.dto.Promo;
 import org.test.shop.promo.service.PromoService;
 
 import java.util.*;

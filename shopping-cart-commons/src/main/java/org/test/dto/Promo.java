@@ -1,4 +1,4 @@
-package org.test.shop.promo.dto;
+package org.test.dto;
 
 /**
  * Created by anand.shah on 6/1/2015.
@@ -17,6 +17,10 @@ public class Promo {
                 ", star=" + star +
                 ", likes=" + likes +
                 '}';
+    }
+
+    public Promo() {
+
     }
 
     public Promo(String id, String content, int star, long likes) {

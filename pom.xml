@@ -12,6 +12,7 @@
         <module>shopping-cart-promo</module>
         <module>shopping-cart-histrix-dashboard</module>
         <module>shopping-cart-customer-edge</module>
+        <module>shopping-cart-commons</module>
     </modules>
     <packaging>pom</packaging>
 

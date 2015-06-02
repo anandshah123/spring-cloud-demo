@@ -1,6 +1,7 @@
 package org.test.shop.promo.service;
 
-import org.test.shop.promo.dto.Promo;
+import org.test.dto.Promo;
+
 
 import java.util.Collection;
 import java.util.Date;
